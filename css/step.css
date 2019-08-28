@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font: 16px/1.5 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:linear-gradient(to right top , rgba(603, 6, 0, 0.415), rgba(0, 0, 0, 0.833)) ,url('../image/FB_IMG_15662146371062120.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+}
+.main{
+    position: absolute;
+    top: -33%;
+    left: 30%;
+    opacity: 0.7;
+}
+.main .logo{
+    clip-path: circle();
+}
+.cont{
+    width: 80%;
+}
+
+.my-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    box-shadow: 1px -1px 5px gray, -3px 2px 5px black; 
+    width: 300px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.all >h1{
+    text-align: center;
+    color: black;
+}
+.step{
+    display: block;
+    opacity: 0.8;
+}
+.all{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.all >.btn{
+    padding:10px 27px;
+    border: none;
+    font-weight: 800;
+    color: white;
+    margin-right: 10px;
+    background-color: red;
+    opacity: 0.7;
+    border-radius: 60px;
+    outline: none;
+}
+
+.all >.btn-blue{
+background-color: blue;
+opacity: 0.7;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.all input[type=text],.all input[type=password]{
+    padding:10px 113px 10px 0px; 
+    border: none;
+    color: white;
+}
+.all input[type=text]:focus,.all input[type=password]:focus{
+    background-color: rgba(128, 128, 128, 0.495);
+    outline: none;
+}
+.all .btn-o{
+    padding: 10px 116px;
+    color: white;
+    font-weight: 900;
+    background-color:tomato;
+    border: none;
+    letter-spacing: 2px;
+    box-shadow: -1px 1px 10px black,-1px 1px 1px darkgoldenrod ;
+    border-radius: 60px;
+    opacity: 0.8;
+}
+.all .btn-o:hover{
+opacity: 1;
+outline: none;
+}
